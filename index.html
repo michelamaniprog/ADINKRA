@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Adinkra</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+	<link rel="shortcut icon" href="images/logo/ADINKRA PNG BLANC.png" type="image/x-icon">
+	
+
+	<!--  -->
+	<style>
+		.valeur_box{
+			padding: 30px;
+		}
+		.valeur_box .row{
+			display: flex;
+			justify-content: space-evenly;
+		}
+		h2.til{
+			font-size: 15px;
+			font-weight: 100;
+		}
+		div.borderred{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			padding: 10px;
+			width: 150px;
+			height: 150px;
+			border: 2px solid red;
+			margin-bottom: 15px;
+		}
+		div.column.left{
+			font-weight: 100;
+		}
+		div.column.left a{
+			background-color: white;
+			border-radius: 9px;
+			color: black;
+			text-decoration: none;
+			padding: 10px;
+		}
+		.slidebtn{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 50px;
+		}
+		div .btn1{
+			width: 20px;
+			height: 20px;
+			margin: 10px;
+			background-color: white;
+			border-radius: 10px;
+		}
+		.services{
+			background-color: black;
+		}
+		.imag1{
+			width: 300px;
+			height: 370px;
+			background-color: antiquewhite;
+			background-image: url("images/im.png");
+			background-size: cover;
+		}
+		.card{}
+		.box {}
+
+		.equi{
+			background-color: white;
+		}
+		div.slidebtn{
+			background-color: black ;
+		}
+		.slidebtn1{
+			display: flex;
+			padding: 30px;
+			justify-content: center;
+		}
+		div.slidebtn1 .btn1{
+			background-color: black ;
+		}
+		.barreresum{
+			background-color: black;
+			display: flex;
+			justify-content: space-around;
+			font-weight: 800;
+			font-size: larger;
+			text-align: center;
+		 }
+		 footer .foott{
+			display: flex;
+			justify-content: space-around;
+		 }
+
+		 .noir{
+			background-color: black;
+			height: 50px;
+		 }
+	</style>
+</head>
+<body>
+	<div class="scroll-up-btn">
+		<i class="fas fa-angle-up"></i>
+	</div>
+	<nav class="navbar">
+		<div class="max-width">
+			<div class="logo"><img src="images/logo/ADINKRA STUDIO LOGO PNG BLANC.png" width="110" alt="logo"></div>
+			<ul class="menu">
+				<li><a href="#accueil" class="menu-btn">SERVICES</a></li>
+				<li><a href="#apropos" class="menu-btn">OUR TEAM</a></li>
+				<li><a href="#services" class="menu-btn">COACHING</a></li>
+				<li><a href="#competences" class="menu-btn">RETOUR CLIENTS</a></li>
+				<li><a href="#equipe" class="menu-btn">BRANDBLOG</a></li>
+				<!-- <li><a href="#contact" class="menu-btn">Contact</a></li> -->
+			</ul>	
+			<div class="menu-btn">
+				<i class="fas fa-bars"></i>
+			</div>
+		</div>
+	</nav>
+
+	<!-- home section start  -->
+
+	<section class="accueil" id="home">
+		<div class="max-width">
+			<div class="contenu-accueil">
+				<!-- <div class="text-1">Je suis</div> -->
+				<div class="text-2">ADINKRA </br> STUDIO</div>
+				<!-- <div class="text-3">je suis développeur <span class="typing"></span></div> -->
+				<div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+				</div>
+				<a href="tel:(+225)(0140734643)">Loren sum</a>
+			</div>
+		</div>
+	</section>
+	
+<!-- NOUS SOMMES section START -->
+	<section class="apropos" id="apropos">
+		<div class="max-width">
+			<!-- <h2 class="titre">A propos</h2> -->
+			<div class="contenu-apropos">
+				<div class="column left">
+					<h1>NOUS SOMMES</h1>
+					<p>Une agence de personal branding est une 
+						pratique qui consiste pour un individu à 
+						promouvoir lui même son image et ses 
+						compétences par le biais des techniques 
+						marketing et publicitaires utilisées 
+						habituellement pour promouvoir une marque. 
+						Dans cette démarche, l'individu vise à devenir 
+						lui-même une "marque reconnue". La 
+						démarche de personal branding peut être 
+						entreprise dans le cadre d'une activité 
+						professionnelle ou à titre plus personnel.<br>
+						Dans le cadre d'une entreprise, il existe 
+						essentiellement trois cas distincts de personal 
+						branding.
+					</p><br>
+					<a href="#">Apprendre plus ></a>
+				</div>
+				<div class="column right">
+					<div class="text">Nos Valeurs</div>
+					<div class="container valeur_box">
+						<div class="row">
+							<div class="borderred"><img src="images/symm.png" alt="" width="50"><h2 class="til">Lorem ipsum</h2></div>
+							<div class="borderred"><img src="images/symm.png" alt="" width="50"><h2 class="til">Lorem ipsum</h2></div>
+						</div>
+						<div class="row">
+							<div class="borderred"><img src="images/symm.png" alt="" width="50"><h2 class="til">Lorem ipsum</h2></div>
+							<div class="borderred"><img src="images/symm.png" alt="" width="50"><h2 class="til">Lorem ipsum</h2></div>
+						</div>
+						<div class="row">
+							<div class="borderred"><img src="images/symm.png" alt="" width="50"><h2 class="til">Lorem ipsum</h2></div>
+							<div class="borderred"><img src="images/symm.png" alt="" width="50"><h2 class="til">Lorem ipsum</h2></div>
+						</div>
+						<!-- btn for slide -->
+						<div class="slidebtn">
+							<div class="btn1"></div>
+							<div class="btn1"></div>
+							<div class="btn1"></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- NOUS SOMMES section END -->
+
+<!-- START NOS SERVICES SECTION -->
+    <section class="ser">
+        <h2 class="titre_section" id="titre_blanc">NOS SERVICES</h2>
+
+        <!-- START  -->
+        <div class="max-width">
+            <div class="row">
+                <!-- CARD -->
+                <div class="card">
+                    <div class=" box box0">
+                            <!-- dans css -->
+                    </div>
+                    <div class="boxtext">
+                            <h2 class="titlebox">
+                                lorem ipsu
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                            </p>
+                    </div>
+                   
+                </div>
+                <div class="card">
+                    <div class=" box box1">
+                            <!-- dans css -->
+                    </div>
+                    <div class="boxtext">
+                            <h2 class="titlebox">
+                                lorem ipsu
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                            </p>
+                    </div>
+                   
+                </div>
+                <div class="card">
+                    <div class=" box box2">
+                            <!-- dans css -->
+                    </div>
+                    <div class="boxtext">
+                            <h2 class="titlebox">
+                                lorem ipsu
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                            </p>
+                    </div>
+                   
+                </div>
+				<!-- btn for slide -->
+                
+            </div>
+			<div class="slidebtn">
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+			</div>
+        </div>
+        <!-- END -->
+
+        </div>
+    </section>
+<!-- END NOS SERVICES SECTION  -->
+
+<!-- EQUIPE section START -->
+        <section class="cer">
+            <h2 class="titre_section_noir" id="titre_noir">L'EQUIPE</h2>
+    
+            <!-- START  -->
+            <div class="max-width">
+                <div class="row">
+                    <!-- CARD -->
+                    <div class="card1">
+                        <div class=" box1 box3">
+                            <!-- img dans css -->
+                            <div class="deco">
+                                <!-- dans css -->
+                            </div>
+                        </div>
+                        <div class="boxtext1">
+                                <h2 class="titlebox">
+                                    lorem ipsu
+                                </h2>
+                                <p>
+                                 consectetur adipisicing elit
+                                </p>
+                        </div>
+                       
+                    </div>
+
+                    <div class="card1">
+                        <div class=" box1 box3">
+                            <!-- img dans css -->
+                            <div class="deco">
+                                <!-- dans css -->
+                            </div>
+                        </div>
+                        <div class="boxtext1">
+                                <h2 class="titlebox">
+                                    lorem ipsu
+                                </h2>
+                                <p>
+                                 consectetur adipisicing elit
+                                </p>
+                        </div>
+                       
+                    </div>
+                    <div class="card1">
+                        <div class=" box1 box3">
+                            <!-- img dans css -->
+                            <div class="deco">
+                                <!-- dans css -->
+                            </div>
+                        </div>
+                        <div class="boxtext1">
+                                <h2 class="titlebox">
+                                    lorem ipsu
+                                </h2>
+                                <p>
+                                 consectetur adipisicing elit
+                                </p>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <!-- END -->
+			<div class="slidebtn1">
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+			</div>
+        </section>
+<!-- EQUIPE section END -->
+
+<!-- COACHING section START -->
+<h2 class="titre_section_noir" id="titre_noir">COACHING</h2>
+<div class="max-width">
+	<div class="row">
+		<!-- CARD -->
+		<div class="card1">
+			<div class=" box1 box3">
+				<!-- img dans css -->
+				<div class="deco">
+					<!-- dans css -->
+				</div>
+			</div>
+			<div class="boxtext1">
+					<h2 class="titlebox">
+						lorem ipsu
+					</h2>
+					<p>
+					 consectetur adipisicing elit
+					</p>
+			</div>
+		   
+		</div>
+
+		<div class="card1">
+			<div class=" box1 box3">
+				<!-- img dans css -->
+				<div class="deco">
+					<!-- dans css -->
+				</div>
+			</div>
+			<div class="boxtext1">
+					<h2 class="titlebox">
+						lorem ipsu
+					</h2>
+					<p>
+					 consectetur adipisicing elit
+					</p>
+			</div>
+		   
+		</div>
+		<div class="card1">
+			<div class=" box1 box3">
+				<!-- img dans css -->
+				<div class="deco">
+					<!-- dans css -->
+				</div>
+			</div>
+			<div class="boxtext1">
+					<h2 class="titlebox">
+						lorem ipsu
+					</h2>
+					<p>
+					 consectetur adipisicing elit
+					</p>
+			</div>
+		   
+		</div>
+		
+	</div>
+	
+</div>
+<!-- END -->
+			<div class="slidebtn1">
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+			</div>
+				
+			<div class="barreresum">
+				<p>100M <br> Utilisateurs</p>
+				<p>10<br> Formations</p>
+				<p>3+<br> Ans d’expérience</p>
+				<p>35<br> Clients satisfait</p>
+			</div>
+	</div>
+	</section>
+<!-- COACHING section END -->
+
+<!-- RETOUR CLIENTS section START -->
+	<section class="services equi" id="services">
+	<div class="max-width">
+		<h2 class="">RETOUR CLIENTS</h2>
+		<div class="contenu-services">
+				<div class="card">
+					<div class="box">
+						<p>Je concois des maquettes originales pour votre site web 
+							et application mobile
+						</p>
+						<div class="text">Lorem ispsum</div>
+						<p>Chargée de Com et Marketing à GCM</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="box">
+						<p>Je concois des maquettes originales pour votre site web 
+							et application mobile
+						</p>
+						<div class="text">Lorem ispsum</div>
+						<p>Chargée de Com et Marketing à GCM</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="box">
+						<p>Je concois des maquettes originales pour votre site web 
+							et application mobile
+						</p>
+						<div class="text">Lorem ispsum</div>
+						<p>Chargée de Com et Marketing à GCM</p>
+					</div>
+				</div>
+			</div>
+			<!-- btn for slide -->
+			<div class="slidebtn">
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+				<div class="btn1"></div>
+			</div>
+
+			<div class="barreresum">
+				<p>100M Utilisateurs</p>
+				<p>10 Formations</p>
+				<p>3+ Ans d’expérience</p>
+				<p>35 Clients satisfait</p>
+			</div>
+	</div>
+	</section>
+<!-- SERVICES section END -->
+
+<!-- NEWSLETTER  section START -->
+	<section class="contact" id="contact">
+		<div class="max-width">
+			<!-- <h2 class="titre">Contactez moi</h2> -->
+			<div class="contenu-contact">
+				<div class="column left">
+					<img src="images/proud-confident-good-looking-female-entrepreneur-starting-own-business-standing-delighted-happy-half-turned-with-hands-crossed-body-self-assured-pose.png" width="500" alt="">
+					<div class="text"></div>
+					<p></p>
+					<div class="icons">
+
+						<div class="row">
+					
+						</div>
+
+					<div class="row">
+				
+					</div>
+			</div>
+			</div>
+			<div class="column right">
+				<h2 class="">Inscrivez-vous à la newsteller</h2>
+				<div class="text">M'écrire</div>
+				<form action="#">
+					<div class="fields">
+						<div class="field name">
+							<input type="text" placeholder="Name" required>
+						</div>
+						<div class="field email">
+							<input type="email" placeholder="Email" required>
+						</div>
+					</div>
+					<div class="field">
+						<input type="text" placeholder="Sujet" required>
+					</div>
+					<div class="field textarea">
+						<textarea cols="30" rows="10" placeholder="description du sujet.."></textarea>
+					</div>
+					<div class="button">
+						<button class="submit">Envoyer</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		</div>
+	</section>
+<!-- NEWSLETTER section END -->
+
+<!-- FOOTER section START -->
+	<footer>
+		<div class="max-width">
+
+			<div class="foott">
+				<div><img src="images/logo/ADINKRA PNG_.png" width="200" alt=""></div>
+				<div>
+					<h3>Nos contacts</h3>
+					<p>+225 00 00 00 00 00</p>
+					<p>+225 00 00 00 00 00</p>
+				</div>
+				<div>
+				<h3>Localisation</h3>
+				<p>Côte d'Ivoire</p>
+				<p>Abidjan Cocody</p>
+			</div>
+
+			<div>
+				<h3>Suivez nous</h3>
+				<i></i> x3
+			</div>
+			
+			</div>
+		</div>
+		
+	</footer>
+	<div class="noir"></div>
+<!-- FOOTER section END -->	
+
+	<script src="script.js"></script>
+</body>
+</html>		
